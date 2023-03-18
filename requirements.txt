@@ -1,5 +1,5 @@
-Pyrogram==1.1.9
+python-telegram-bot
 requests
 telegram
 bs4
-python-telegram-bot
+BeautifulSoup
