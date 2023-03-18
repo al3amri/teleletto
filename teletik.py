@@ -6,6 +6,7 @@ from telegram.ext import Updater, CommandHandler
 
 # Set up the Telegram bot
 bot_token = '5692403421:AAGhk6IzZbo99myH6pIRrQajmnXZVTtqq1g'
+DPurl = "postgresql://postgres:4hiHRQPx4HJgUv1LTKYk@containers-us-west-52.railway.app:7146/railway"
 bot = telegram.Bot(token=bot_token)
 
 # Define a command handler for the /start command
