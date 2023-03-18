@@ -1,7 +1,10 @@
 name: main
 image: python:3.8
 command:
-  - python
+  - python main.py
+  - pip install requests
+  - pip install bs4
+  - pip install telegram
   - main.py
 ports:
   - 8000:8000
