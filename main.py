@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import telegram
-from telegram.ext import Updater, CommandHandler
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Set up the Telegram bot
 bot_token = '5692403421:AAGhk6IzZbo99myH6pIRrQajmnXZVTtqq1g'
