@@ -1,0 +1,5 @@
+Pyrogram==1.1.9
+requests
+telegram
+bs4
+python-telegram-bot
