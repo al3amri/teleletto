@@ -1,0 +1,7 @@
+name: main
+image: python:3.8
+command:
+  - python
+  - main.py
+ports:
+  - 8000:8000
