@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Set up the Telegram bot
-bot_token = ''
+bot_token = '5692403421:AAGhk6IzZbo99myH6pIRrQajmnXZVTtqq1g'
 DPurl = "postgresql://postgres:4hiHRQPx4HJgUv1LTKYk@containers-us-west-52.railway.app:7146/railway"
 bot = telegram.Bot(token=bot_token)
 
